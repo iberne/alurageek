@@ -1,0 +1,244 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+}
+.info{
+    display: flex;
+    width: 1136px;
+    align-items: flex-start;
+    gap: 11.2rem;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.info nav{
+    display: flex;
+}
+.info ul{
+    list-style: none;
+    display: flex;
+    width: 234px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+
+}
+.info a{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+}
+
+.logo-footer{
+    display: flex;
+    width: 176px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0; 
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    flex-shrink: 0;
+}
+.contacto h2{
+    font-family: Raleway;
+    font-style: normal;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+}
+.grupo{
+    display: flex;
+    padding: 0rem 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.7rem;
+    align-self: stretch;
+    background:#FFF;
+    font-family: Raleway;
+    border-radius: 4px;
+    padding-left: 12px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    width: 100%;
+}
+.grupo label{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#A2A2A2;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border: none;
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.mensaje{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color:#A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    resize: none;
+    border: none;
+    border-radius: 0.4rem;
+    align-self: stretch;
+    padding: 2rem 1.2rem;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.btn-enviar{
+    display: flex;
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background:#2A7AE4;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 14.4rem;
+    height: 5.1rem;
+    border: none;
+}
+footer{
+    display: flex;
+    padding: 3.2rem;
+    align-items: center;
+    gap: 0.3rem;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #464646;
+
+}
+@media screen and (min-width:1024px){
+    .info{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        gap: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grupo{
+        width: 85%;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .formulario{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        display:flex;
+        margin: auto;
+    }
+    .logo-footer{
+        width: 95%;
+    }
+    .info{
+        width: 40%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        text-align: left;
+        
+    }
+    .contacto{
+        width: 60%;
+    }
+    .grupo{
+        width: 90%;
+    }
+    .btn-enviar{
+        width: 50%;
+    }
+}
+@media screen and (max-width:767px){
+    .formulario{
+        justify-content: center;
+        text-align: center;
+        display:grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .logo-footer{
+        width: 95%;
+        
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        width: 95%;
+        text-align: center;
+        gap: 10px;
+        margin: auto;
+        
+    }
+    .info nav{
+        align-items: center;
+        margin: auto;
+    }
+    .contacto{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        width: 95%;
+        gap: 10px;
+        margin: auto;
+        
+    }
+    .grupo{
+        width: 90%;
+    }
+    .btn-enviar{
+        width: 100%;
+        height: 10%;
+    }
+}

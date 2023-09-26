@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/inicio.css">
+    <link rel="stylesheet" href="estilos/contactar.css">
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="shortcut icon" href="img/Group.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>login</title>
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="logo-buscar">
+            <div class="logo">
+                <a href="index.html"><img src="img/Group.svg" alt="logo"></a>
+                <a href="index.html"><img src="img/AluraGeek.svg" alt="alura"></a>
+                <a href="index.html"><img src="img/AluraGeek (1).svg" alt="geek"></a>
+            </div>
+            <div class="buscador">
+                <input type="search" class="buscar" placeholder="¿Qué deseas buscar?">
+                <button type="button" class="btn-buscar"><img src="img/lupa.svg" alt="buscar"></button>
+            </div>
+        </div>
+       
+    </header>
+
+    <main>
+        <div class="ingresar">
+            <form class="login-form" id="login-form" action="">
+                <h1>Iniciar Sesión</h1>
+                <input class="input" type="email" name="login-email" id="login-email" required placeholder="Escriba su correo electrónico" pattern="[^\s@]+@[^\s@]+\.[^\s@]+" />
+                <input class="input" type="password" name="password" id="password" placeholder="Escriba su contraseña" required />
+                <input class="entrar" type="submit" value="Entrar" />
+              </form>
+        </div>
+    
+
+        <section class="formulario">
+ 
+            <div class="info">
+                <div class="logo-footer" >
+                    <a href="index.html"><img src="img/logo-completo.svg" alt= "Logo de AluraGeek" class="logo-inferior"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Quienes somos</a></li>
+                        <li><a href="">Política de privacidad</a></li>
+                        <li><a href="">Programa de fidelidad</a></li>
+                        <li><a href="">Nuestras Tiendas</a></li>
+                        <li><a href="">Quiero ser franquiciado</a></li>
+                        <li><a href="">Anúncie aquí</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+        
+            <form class="contacto"> 
+                <h2>Hable con nosotros</h2>
+                <div class="grupo">
+                    <label for="">Nombre</label>
+                    <input required type="text" name="nombre" id="nombre" class="nombre" maxlength="40">
+                </div>
+                <div class="grupo">
+                    <label for="">Mensaje</label>
+                    <textarea required name="mensaje" id="mensaje" cols="0" rows="0" class="mensaje" maxlength="120"></textarea>
+                </div>
+                <button type="submit" class="btn-enviar" id="enviar">Enviar mensaje</button>
+            </form> 
+          
+        </section>
+    </main>
+<footer>Desarrollado por Iberne Vicino</footer>    
+<script src="js/index.js"></script>
+</body>
+</html>

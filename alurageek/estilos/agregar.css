@@ -1,0 +1,144 @@
+.agregar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agregar-form{
+    margin: 0;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .agregar-form h1{
+    color: #464646;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+ }
+ .url-img{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ .categoria{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ .producto-nombre{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ .precio{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ .descripcion-producto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 82px;
+    border: none;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+
+ .agregar-producto{
+    width: 343px;
+    height: 51px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 16.44px;
+    text-align:center;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 4px;
+   margin-bottom: 20px;
+ }
+ #imagen {
+   font-weight: 500;
+   font-size: 16px;
+   color: #464646;
+   width: 328px;
+   height: 56px;
+   border: none;
+   border-radius: 5px;
+   border-bottom: solid 1px #C8C8C8;
+   padding-left: 10px;
+   margin-bottom: 10px; 
+ }
+ 
+ 
+ #buscar-imagen {
+   font-weight: 500;
+   font-size: 16px;
+   color: #fff;
+   background-color: #2A7AE4;
+   border: none;
+   border-radius: 5px;
+   height: 36px; 
+   cursor: pointer;
+ }
+
+ 
+ @media screen and (max-width: 768px) {
+   .url-img{
+      width: 90%;
+   }
+   .categoria{
+      width: 90%;
+   }
+   .producto-nombre{
+      width: 90%;
+   }
+   .precio{
+      width: 90%;
+   }
+   .descripcion-producto{
+      width: 90%;
+   }
+   .agregar-producto{
+      width: 90%;
+   }
+   #imagen {
+      width: 90%;
+    }
+    #buscar-imagen {
+      width: 90%;
+    }
+}
+  
+ 

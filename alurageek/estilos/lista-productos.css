@@ -1,0 +1,108 @@
+.productos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.titulo h1{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #464646;
+}
+.titulo a{
+    width: 65px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.titulo img{
+    width: 19px;
+}
+.agregar-btn{
+    width:163px;
+    height:51px;
+    padding: 16px;
+    gap: 10px;
+    background-color:#2A7AE4;
+    border: none;
+}
+.agregar-btn a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contenedor-producto{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.contenedor-producto h2{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#464646;
+}
+.contenedor-producto p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ver{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#2A7AE4;
+}
+@media screen and (max-width: 1024px) {
+    .contenedor-producto{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+        gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+   .contenedor-producto h2{
+    text-align: center;
+   }
+   .contenedor-producto p{
+    text-align: center;
+   }
+}
+
